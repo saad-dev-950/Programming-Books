@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #1d3557;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header button {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(23, 189, 37);
+    color: white;
+}
+
+header button:hover {
+    background-color: black;
+    transition: 0.5s all;
+    transform: scale(1.10);
+}
+/* ------- */
+
+/* Hero Section */
+#SN {
+    color: #1d3557;
+}
+
+#heroBtns button {
+    padding: 6px 14px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#heroBtns button:hover {
+    background-color: #1d3557;
+    color: white;
+    transition: transform 0.5s ease;
+    transform: translateY(-5px);
+}
+
+#portfolioImg {
+    border: none;
+    border-radius: 7px;
+}
+
+#portfolioImg:hover {
+    transition: 0.5s all;
+    transform: scale(1.05);
+}
+/* ------- */
+
+/* About Section */
+#skillBtnsAbout p {
+    padding: 4px 8px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+/* ------- */
+
+/* Projects Section */
+/* #projects {
+    background-color:#1d3557;
+} */
+
+#skillBtnsProjects p {
+    padding: 4px 8px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.liveBtn {
+    padding: 4px 24px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.liveBtn:hover {
+    background-color: #1d3557;
+    color: white;
+    transition: 0.5s all;
+    transform: translateY(-5px);
+}
+
+/* ------- */
+
+/* Contact Section */
+#contact a {
+    color: #0a2852;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.social-links i {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d3557;
+    color: white;
+}
+
+.social-links i:hover {
+    background-color: black;
+    transform: scale(1.25);
+    transition: 0.5s all;
+}
+
+/* ------- */
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #1d3557;
+    padding: 16px;
+    color: white;
+}
+
+#social-links i {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#social-links i:hover {
+    background-image: linear-gradient(to right, #0b73b7, rgba(109, 168, 0, 0.71));
+    transform: scale(1.25);
+    transition: 0.5s all;
+}
